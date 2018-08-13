@@ -1,0 +1,6 @@
+
+*.andreas
+grbl_psoc.cydsn/codegentemp/
+CortexM3/
+grbl_psoc.cydsn/Generated_Source/
+*.log

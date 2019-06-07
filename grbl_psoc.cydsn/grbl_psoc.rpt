@@ -1,21 +1,21 @@
-Loading plugins phase: Elapsed time ==> 0s.552ms
+Loading plugins phase: Elapsed time ==> 0s.190ms
 <CYPRESSTAG name="CyDsfit arguments...">
-cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -d CY8C5888LTI-LP097 -s C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -d CY8C5888LTI-LP097 -s C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 ADD: fit.M0032: warning: Clock Warning: (UART_IntClock's accuracy range '923.077 kHz +/- 5%, (876.923 kHz - 969.231 kHz)' is not within the specified tolerance range '921.6 kHz -5.253% +3.937%, (873.187 kHz - 957.887 kHz)'.).
  * C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cysch (Instance:IntClock)
- * C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cydwr (UART_IntClock)
+ * C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cydwr (UART_IntClock)
 
 ADD: fit.M0032: warning: Clock Warning: (CLOCK_LC_UPDATE's accuracy range '1  Hz -50% +100%, (0.5  Hz - 2  Hz)' is not within the specified tolerance range '1  Hz +/- 5%, (0.95  Hz - 1.05  Hz)'.).
- * C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cydwr (CLOCK_LC_UPDATE)
- * C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\TopDesign\TopDesign.cysch (Instance:CLOCK_LC_UPDATE)
+ * C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cydwr (CLOCK_LC_UPDATE)
+ * C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\TopDesign\TopDesign.cysch (Instance:CLOCK_LC_UPDATE)
 
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 5s.220ms
+Elaboration phase: Elapsed time ==> 2s.918ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.113ms
+HDL generation phase: Elapsed time ==> 0s.114ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -33,23 +33,23 @@ HDL generation phase: Elapsed time ==> 0s.113ms
 ======================================================================
 Compiling:  grbl_psoc.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 grbl_psoc.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 grbl_psoc.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  grbl_psoc.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 grbl_psoc.v -verilog
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 grbl_psoc.v -verilog
 ======================================================================
 
 ======================================================================
 Compiling:  grbl_psoc.v
 Program  :   vlogfe
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 -verilog grbl_psoc.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 -verilog grbl_psoc.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Sat Sep 22 08:12:30 2018
+Fri Jun 07 08:21:12 2019
 
 
 ======================================================================
@@ -59,7 +59,7 @@ Options  :    -yv2 -q10 grbl_psoc.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Sat Sep 22 08:12:30 2018
+Fri Jun 07 08:21:12 2019
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'
@@ -114,11 +114,11 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  grbl_psoc.v
 Program  :   tovif
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 -verilog grbl_psoc.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 -verilog grbl_psoc.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Sat Sep 22 08:12:31 2018
+Fri Jun 07 08:21:12 2019
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -129,9 +129,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.ctl'.
+Linking 'C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.v'.
+Linking 'C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
@@ -156,11 +156,11 @@ tovif:  No errors.
 ======================================================================
 Compiling:  grbl_psoc.v
 Program  :   topld
-Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 -verilog grbl_psoc.v
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 -verilog grbl_psoc.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Sat Sep 22 08:12:32 2018
+Fri Jun 07 08:21:13 2019
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -171,9 +171,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
-Linking 'C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.ctl'.
+Linking 'C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
-Linking 'C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.v'.
+Linking 'C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\codegentemp\grbl_psoc.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_UART_v2_50\B_UART_v2_50.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
@@ -785,16 +785,16 @@ topld:  No errors.
 
 CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
-Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 grbl_psoc.v -verilog
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -dcpsoc3 grbl_psoc.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 2s.854ms
+Warp synthesis phase: Elapsed time ==> 1s.947ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Saturday, 22 September 2018 08:12:32
-Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\Cypress_CY8CKIT-059\workspace_grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -d CY8C5888LTI-LP097 grbl_psoc.v -verilog
+cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Friday, 07 June 2019 08:21:14
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\andre\Documents\GIT\grbl_psoc\grbl_psoc.cydsn\grbl_psoc.cyprj -d CY8C5888LTI-LP097 grbl_psoc.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.032ms
+Design parsing phase: Elapsed time ==> 0s.023ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -1319,7 +1319,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1340,7 +1340,7 @@ Design Equations
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
             Required Capabilities: DIGITAL, ROUTABLE
-            Initial Value: 0
+            Initial Value: 1
             IO Voltage: 0
         PORT MAP (
             pa_out => STEP_Y_ENABLE_PIN(0)__PA ,
@@ -1359,7 +1359,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1399,7 +1399,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1439,7 +1439,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1479,7 +1479,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1519,7 +1519,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1559,7 +1559,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -1999,7 +1999,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -2020,7 +2020,7 @@ Design Equations
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
             Required Capabilities: DIGITAL, ROUTABLE
-            Initial Value: 0
+            Initial Value: 1
             IO Voltage: 0
         PORT MAP (
             pa_out => STEP_Z_ENABLE_PIN(0)__PA ,
@@ -2039,7 +2039,7 @@ Design Equations
             Interrupt mode: NONE
             Drive mode: CMOS_OUT
             VTrip: EITHER
-            Slew: FAST
+            Slew: SLOW
             Input Sync needed: False
             Output Sync needed: False
             SC shield enabled: False
@@ -2060,7 +2060,7 @@ Design Equations
             SIO Multiplier Index: 0
             SIO RefSel: VCC_IO
             Required Capabilities: DIGITAL, ROUTABLE
-            Initial Value: 0
+            Initial Value: 1
             IO Voltage: 0
         PORT MAP (
             pa_out => STEP_X_ENABLE_PIN(0)__PA ,
@@ -3460,7 +3460,7 @@ Design Equations
             cy_ctrl_mode_1 = "00000000"
             cy_ext_reset = 0
             cy_force_order = 1
-            cy_init_value = "00000000"
+            cy_init_value = "00000001"
         }
         Clock Enable: True
 
@@ -3653,8 +3653,8 @@ Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.247ms
-Tech Mapping phase: Elapsed time ==> 0s.341ms
+Technology Mapping: Elapsed time ==> 0s.233ms
+Tech Mapping phase: Elapsed time ==> 0s.337ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -3686,7 +3686,7 @@ IO_2@[IOP=(3)][IoId=(2)] : STEP_Z_ENABLE_PIN(0) (fixed)
 IO_1@[IOP=(3)][IoId=(1)] : STEP_Z_PIN(0) (fixed)
 IO_6@[IOP=(12)][IoId=(6)] : UART_RX_PIN(0) (fixed)
 IO_7@[IOP=(12)][IoId=(7)] : UART_TX_PIN(0) (fixed)
-Analog Placement phase: Elapsed time ==> 0s.021ms
+Analog Placement phase: Elapsed time ==> 0s.052ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Analog Routing phase: Elapsed time ==> 0s.000ms
@@ -3704,11 +3704,11 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = False
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.365ms
+Analog Code Generation phase: Elapsed time ==> 0s.346ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 2.1 sec.
+I2076: Total run-time: 2.3 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -3739,7 +3739,7 @@ PLD Packing: Elapsed time ==> 0s.002ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.121ms
+Partitioning: Elapsed time ==> 0s.122ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -5113,7 +5113,7 @@ controlcell: Name =\STEP_ENABLE_CONTROL_REG:Sync:ctrl_reg\
         cy_ctrl_mode_1 = "00000000"
         cy_ext_reset = 0
         cy_force_order = 1
-        cy_init_value = "00000000"
+        cy_init_value = "00000001"
     }
     Clock Enable: True
 
@@ -5562,7 +5562,7 @@ Pin : Name = DIR_X_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -5603,7 +5603,7 @@ Pin : Name = STEP_X_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -5644,7 +5644,7 @@ Pin : Name = STEP_X_ENABLE_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -5665,7 +5665,7 @@ Pin : Name = STEP_X_ENABLE_PIN(0)
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
         Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 0
+        Initial Value: 1
         IO Voltage: 0
     PORT MAP (
         pa_out => STEP_X_ENABLE_PIN(0)__PA ,
@@ -6137,7 +6137,7 @@ Pin : Name = DIR_Z_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -6178,7 +6178,7 @@ Pin : Name = STEP_Z_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -6219,7 +6219,7 @@ Pin : Name = STEP_Z_ENABLE_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -6240,7 +6240,7 @@ Pin : Name = STEP_Z_ENABLE_PIN(0)
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
         Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 0
+        Initial Value: 1
         IO Voltage: 0
     PORT MAP (
         pa_out => STEP_Z_ENABLE_PIN(0)__PA ,
@@ -6592,7 +6592,7 @@ Pin : Name = DIR_Y_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -6633,7 +6633,7 @@ Pin : Name = STEP_Y_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -6674,7 +6674,7 @@ Pin : Name = STEP_Y_ENABLE_PIN(0)
         Interrupt mode: NONE
         Drive mode: CMOS_OUT
         VTrip: EITHER
-        Slew: FAST
+        Slew: SLOW
         Input Sync needed: False
         Output Sync needed: False
         SC shield enabled: False
@@ -6695,7 +6695,7 @@ Pin : Name = STEP_Y_ENABLE_PIN(0)
         SIO Multiplier Index: 0
         SIO RefSel: VCC_IO
         Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 0
+        Initial Value: 1
         IO Voltage: 0
     PORT MAP (
         pa_out => STEP_Y_ENABLE_PIN(0)__PA ,
@@ -6843,33 +6843,33 @@ Port | Pin | Fixed |      Type |       Drive Mode |                       Name |
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.126ms
+Digital component placer commit/Report: Elapsed time ==> 0s.100ms
 Digital Placement phase: Elapsed time ==> 2s.865ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Users\andre\Documents\PSoC Creator\4.2\Devices\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "grbl_psoc_r.vh2" --pcf-path "grbl_psoc.pco" --des-name "grbl_psoc" --dsf-path "grbl_psoc.dsf" --sdc-path "grbl_psoc.sdc" --lib-path "grbl_psoc_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 3s.372ms
+Digital Routing phase: Elapsed time ==> 3s.043ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.262ms
+Bitstream Generation phase: Elapsed time ==> 0s.264ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.040ms
+Bitstream Verification phase: Elapsed time ==> 0s.064ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in grbl_psoc_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.663ms
+Static timing analysis phase: Elapsed time ==> 0s.626ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.279ms
+Design database save phase: Elapsed time ==> 0s.396ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 8s.296ms
+cydsfit: Elapsed time ==> 8s.081ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 8s.297ms
-API generation phase: Elapsed time ==> 4s.158ms
-Dependency generation phase: Elapsed time ==> 0s.046ms
-Cleanup phase: Elapsed time ==> 0s.000ms
+Fitter phase: Elapsed time ==> 8s.082ms
+API generation phase: Elapsed time ==> 2s.724ms
+Dependency generation phase: Elapsed time ==> 0s.039ms
+Cleanup phase: Elapsed time ==> 0s.001ms
